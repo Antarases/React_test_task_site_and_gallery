@@ -74,7 +74,7 @@ class Project_2 extends React.Component {
       )
     }
 
-    return 'Photos is being loaded...'
+    return 'Photos are being loaded...'
   }
 }
 

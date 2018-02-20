@@ -7,7 +7,7 @@ const Thumbnails = props => (
   <Col className='thumbnails' lg={2} md={2} sm={12} xs={12} mdPull={10}>
     {
       props.photos.map(photo => (
-        <Col className='thumb' lg={12} md={12} sm={2} xs={3} key={photo.id} onClick={() => props.setImage(photo)}>
+        <Col className='thumb' key={photo.id} onClick={() => props.setImage(photo)} lg={12} md={12} sm={2} xs={3} >
           <Col componentClass='img'
             src={photo.image_url}
             alt={photo.name}
